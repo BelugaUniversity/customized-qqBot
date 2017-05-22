@@ -40,8 +40,6 @@ def onQQMessage(bot, contact, member, content):
                                 sheet.cell(row = j + 1, column = 1).value = array[1]
                                 sheet.cell(row = j + 1, column = i).value = array[3]
                                 print "2"
-                                print str(array[1].decode('utf8').encode('gb2312'))
-                                print str(sheet.cell(row = j, column = 1).value)
                                 break
                         
                         break
